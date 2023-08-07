@@ -1,7 +1,7 @@
 <?php
 namespace Model;
 
-class servicio extends ActiveRecord{
+class Servicio extends ActiveRecord{
     protected static $tabla = "servicios";
     protected static $columnasDB = ["id", "nombre", "precio"];
 
